@@ -7,3 +7,4 @@ Feature: Verification of your Account in Amazon Application
 
   Scenario: Verifying YouAccount Page
     Given : Clicking on the link and navigating to youraccount page
+    When : Clicked on Order details, placed order details displays
