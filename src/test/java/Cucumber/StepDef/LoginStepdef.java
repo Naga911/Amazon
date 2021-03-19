@@ -29,7 +29,7 @@ public class LoginStepdef extends ExtentTestManager {
         ExtentTest logInfo = null;
         try {
 
-            test = extent.createTest(Feature.class, "Verification of PAW");
+            test = extent.createTest(Feature.class, "Verification of Amazon");
           //  test = test.createNode(Scenario.class, "user Opens the browser and load the url").assignCategory("Sanity").assignAuthor("Nagaraj");
             logInfo = test.createNode(new GherkinKeyword("Given"), "user Opens the browser and load the url");
             WebDriver driver = baseUtil.getDriver();
