@@ -15,7 +15,7 @@ import java.io.IOException;
 public class Hooks extends BaseUtil {
 
     private WebDriver driver;
-    private BaseUtil baseUtil;
+    private final BaseUtil baseUtil;
     public Hooks(BaseUtil baseUtil) {
         this.baseUtil = baseUtil;
     }

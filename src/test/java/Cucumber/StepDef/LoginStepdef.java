@@ -12,14 +12,10 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
-//import io.cucumber.core.api.Scenario;
-
 public class LoginStepdef extends ExtentTestManager {
 
 
     BaseUtil baseUtil;
-
-    // Scenario scn;
     public LoginStepdef(BaseUtil baseUtil) {
         this.baseUtil = baseUtil;
     }
